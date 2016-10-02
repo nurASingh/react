@@ -1,0 +1,343 @@
+.tab-container{
+    float: left;
+    width: 80%;
+    height: 10%;
+    position: relative;
+    top: 5%;
+    /* background-color: rgba(119, 71, 53, 0.24); */
+    left: 15%;
+}
+.tab{
+    position: relative;
+    float: left;
+    width: 30%;
+    text-align: center;
+
+    height: 100%;
+    font-size: 3.5em;
+    text-align: center;
+    text-align: center;
+    align-content: center;
+
+}
+
+.tab-container .cash{
+    background-repeat: no-repeat;
+
+    background-image: url("/resource/Rupee-50.png");
+    background-size: 100% 100%;
+}
+
+.tab-container .invest{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("/resource/Donate-50.png");
+}
+
+.tab-container .expense{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("/resource/Bill-50.png");
+}
+
+
+.tab-container .cash-active{
+    background-repeat: no-repeat;
+    background-image: url("/resource/cash-done.png");
+    background-size: 100% 100%;
+    border-bottom: rgba(226, 75, 51, 0.65) 8px solid;
+}
+
+.tab-container .invest-active{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("/resource/Save-done.png");
+    border-bottom: rgba(226, 75, 51, 0.65) 8px solid;
+}
+
+.tab-container .expense-active{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("/resource/Bill-done.png");
+    border-bottom: rgba(226, 75, 51, 0.65) 3px solid;
+}
+
+
+.cash-container{
+    position: relative;
+    width: 100%;
+    float: left;
+    top:5%;
+    height: 75%;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    float: left;
+    top:2%;
+    height: 83%;
+
+}
+
+
+
+#main{
+
+}
+
+
+.cash-container button{
+    width: 25%;
+    position: relative;
+    float: left;
+    height: 48%;
+    top: 35%;
+    left: 10%;
+    font-size: 3.5em;
+}
+
+.cash-container input{
+    position: relative;
+    top: 35%;
+    height: 48%;
+    width: 65%;
+    left: 5%;
+    float: left;
+    font-size: 3.5em;
+}
+
+.cash-container span{
+
+    position: relative;
+    float: left;
+    width: 76%;
+    font-size: 3.5em;
+    height: 5%;
+
+    left: 4%;
+    top: 3%;
+}
+
+#headContainer{
+
+    background-color: rgba(222, 111, 21, 0.23);
+    height: 15%;
+    position: absolute;
+    width: 100%;
+}
+
+.header-logo{
+    position: relative;
+    float: left;
+    height: 100%;
+
+    width: 20%;
+    background-size: 100% 100%;
+    background-image: url("/resource/swastik.png");
+}
+
+.header-text{
+
+    position: relative;
+    float: left;
+
+    height: 100%;
+    width: 50%;
+}
+
+
+.header-text span {
+
+    top: 30%;
+    position: absolute;
+    font-size: 1.5em;
+}
+
+.content-area{
+
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    height: 75%;
+    background-color: rgba(218, 165, 32, 0.19);
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: -8px;
+    top: -8px;
+}
+
+.cash-logo{
+    background-size: 100% 100%;
+    background-image: url("/resource/cash-done.png");
+    position: relative;
+    width: 20%;
+    height: 30%;
+    float: left;
+    top:30%;
+    border: rgba(123, 104, 118, 0.31) solid;
+    border-radius: 50%;
+}
+
+.cash-details{
+    top:30%;
+    position: relative;
+    float: left;
+
+    height: 30%;
+    width: 76%;
+}
+
+.next {
+    background-color: rgba(241, 83, 12, 0.39);
+    border-radius: 50%;
+    background-size: 100% 100%;
+    background-image: url("/resource/next.png");
+    width: 25%;
+    position: relative;
+    float: left;
+    height: 48%;
+    top: 35%;
+    left: 10%;
+}
+
+
+.invest-item{
+    position: relative;
+    float: left;
+    width: 96%;
+    height: 16%;
+    margin: 2%;
+}
+
+.invest-item input[type="text"]{
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 30%;
+    margin-top: 8%;
+    font-size: 0.5em;
+}
+
+.invest-item .invest-add{
+    position: relative;
+    float: left;
+    width: 17%;
+    height: 95%;
+    /* margin-top: 1%; */
+    background-color: rgba(241, 83, 12, 0.39);
+    border-radius: 50%;
+    background-size: 100% 100%;
+    background-image: url("/resource/write.png");
+    left: 1%;
+}
+
+.container .invest-next{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 20%;
+    left: 40%;
+    background-color: rgba(241, 83, 12, 0.39);
+    border-radius: 50%;
+    background-size: 100% 100%;
+    background-image: url("/resource/next.png");
+}
+
+.container .invest-grid{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 87%;
+    overflow: scroll;
+}
+
+.container .invest-grid .invest-grid-party{
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 90%;
+    font-size: 2.5em;
+}
+.container .invest-grid .invest-grid-name{
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 90%;
+    font-size: 2.5em;
+}
+.container .invest-grid .invest-grid-amount{
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 90%;
+    font-size: 2.5em;
+}
+
+.container .invest-grid li{
+    height: 20%;
+    list-style-type: none;
+    width: 90%;
+}
+
+.container .invest-grid ul{
+    width: 100%;
+    height: 100%;
+
+}
+
+.footer-container{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+
+    float: left;
+    bottom: 0%;
+}
+
+.footer-container .next{
+    position: relative;
+    float: left;
+    width: 20%;
+    top:0%;
+    height: 100%;
+    left: 40%;
+    background-color: rgba(241, 83, 12, 0.39);
+    border-radius: 50%;
+    background-size: 100% 100%;
+    background-image: url("/resource/next.png");
+}
+
+.copyright{
+    position: relative;
+    float: right;
+    font-size: 2em;
+    top: 60%;
+    right: 3%;
+}
+
+canvas{
+    position: relative;
+    top: 10%;
+    left: 17%;
+    background-color: rgba(226, 75, 51, 0.39);
+}
+
+#saleDetails span{
+    position: relative;
+    width: 100%;
+    float: left;
+    left: 50%;
+}
+
+#saleDetails{
+    position: relative;
+    float: left;
+    width: 100%;
+    top: 37%;
+    font-size: 1.5em;
+}
